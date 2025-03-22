@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background: linear-gradient(45deg, #bc81ee, #3b0875);
+}
+.hed {
+    position: absolute;
+    left: 20px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: left; 
+    background: transparent;
+    padding: 40px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.title .build {
+    color: white;
+}
+.title .do {
+    color: #6f0909;
+}
+.title .list {
+    color: white;
+}
+.subtitle {
+    font-size: 18px;
+    margin-top: 5px;
+    color: lightgray;
+}
+.header {
+   width: 440px;
+   height: 560px;
+   border: 5px solid black;
+   position: absolute;
+   left: 50%;
+   top: 15%;
+   transform: translateX(-50%);
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+}
+#score-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line-one, .line-two {
+    display: flex;
+}
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 10.5px solid black;
+    margin: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+}
+.yellow {
+    background-color: rgb(240, 240, 97);
+}
+.red {
+    background-color: rgba(235, 35, 35, 0.792);
+}
+.purple {
+    background-color: rgb(175, 53, 175);
+}
+.green {
+    background-color: rgb(21, 172, 21);
+}
+.flash {
+    background-color: rgb(4, 0, 0);
+}
+.userflash {
+    background-color: green;
+}
